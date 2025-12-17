@@ -17,12 +17,12 @@ The goal of this project is to predict the total count of bikes rented during a 
   - **Interaction Terms:** Created features like $Temp \times Humidity$ to model conditional dependencies.
 - **Model Comparison:** Evaluated Linear, Polynomial ($d=2,3,4$), and Interaction models.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Language:** Python
 - **Libraries:** NumPy (Matrix Math), Pandas (Data Handling)
 - **Concepts:** Linear Algebra, Feature Engineering, Bias-Variance Tradeoff
 
-## 📊 Results
+## Results
 | Model Name | MSE | $R^2$ Score |
 | :--- | :--- | :--- |
 | **Interaction (d=2)** | **8869.83** | **0.7229** |
@@ -33,7 +33,7 @@ The goal of this project is to predict the total count of bikes rented during a 
 
 *The Interaction model achieved the highest accuracy by balancing complexity (low bias) without overfitting (low variance).*
 
-## 💻 How to Run
+## How to Run
 
 1. **Prerequisites**
    Ensure you have Python installed with the required libraries:
