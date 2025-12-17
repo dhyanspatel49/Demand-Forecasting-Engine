@@ -143,3 +143,4 @@ print("-" * 50)
 
 for name, mse, r2 in results:
     print(f"{name:<25} | {mse:<15.2f} | {r2:<10.4f}")
+
